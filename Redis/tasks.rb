@@ -6,7 +6,6 @@ namespace :redis do
 
     desc "Restart Redis"
     task :restart, :roles => [:app], :max_hosts => 1 do
-      set :user, "realestate"
       sudo "/etc/init.d/redis-server stop; sudo /etc/init.d/redis-server start"
     end
 end
