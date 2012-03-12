@@ -15,8 +15,10 @@ Available Tasks
 
 Usage
 -----------------
-require 'Magento/magento'
+````
+require 'Magento/magento.rb'
 
 after "deploy:finalize_update", "mage:reindex"
 after 'deploy:setup', 'mage:setup'
 after 'deploy:finalize_update', 'mage:finalize_update'
+````
