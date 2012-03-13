@@ -8,10 +8,10 @@ None
 
 Available Tasks
 -----------------
-* mage:cacheclear - Clears the cache
-* mage:reindex - Rebuilds Magento indexes & cache
-* mage:setup - Creates Magento specific shared directories
-* mage:finalize_update - Magento specific finalize update tasks
+* `mage:cacheclear` - Clears the cache
+* `mage:reindex` - Rebuilds Magento indexes & cache
+* `mage:setup` - Creates Magento specific shared directories
+* `mage:finalize_update` - Magento specific finalize update tasks
 
 Usage
 -----------------

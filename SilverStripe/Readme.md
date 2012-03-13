@@ -12,13 +12,13 @@ Silverstripe library is located in the `silverstripe` directory
 
 Available Tasks
 -----------------
-* silverstripe:dev:build - Build/rebuild this environment. Call this whenever you have updated your project sources
-* silverstripe:dev:buildcache - Rebuild the static cache, if you're using StaticPublisher
-* silverstripe:cache:clear - Clear cache files
-* silverstripe:cache:fix_perms - Fix permissions on your cache files
+* `silverstripe:dev:build` - Build/rebuild this environment. Call this whenever you have updated your project sources
+* `silverstripe:dev:buildcache` - Rebuild the static cache, if you're using StaticPublisher
+* `silverstripe:cache:clear` - Clear cache files
+* `silverstripe:cache:fix_perms` - Fix permissions on your cache files
 
-* silverstripe:deploy:setup - Silverstripe specific setup
-* silverstripe:deploy:symlink_shared - Create shared symlinks
+* `silverstripe:deploy:setup` - Silverstripe specific setup
+* `silverstripe:deploy:symlink_shared` - Create shared symlinks
 
 
 Usage
