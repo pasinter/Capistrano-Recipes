@@ -24,7 +24,7 @@ Available Tasks
 Usage
 -----------------
 ````
-require 'Silverstripe/silverstripe.rb'
+require 'SilverStripe/silverstripe.rb'
 
 # run silverstripe specific setup
 after 'deploy:setup', 'silverstripe:deploy:setup'
