@@ -53,6 +53,25 @@ namespace :silverstripe do
         end
     end
 
+
+    namespace :project do
+        desc "Puts the site into 503 maintenance mode"
+        task :disable, :roles => :web do
+            if previous_release
+                logger.important "Putting site in maintenance"
+                run "echo '<h1>Site Maintenance</h1><p>We're running a few upgrades to site right now and we'll be back online soon</p>' > #{current_release}/maintenance.php"
+            end
+        end
+
+        desc "Removes the 503 maintenance mode"
+        task :enable, :roles => :web do
+            if previous_release
+                logger.important "Removing site maintenance mode"
+                run "rm #{current_release}/maintenance.php"
+            end
+        end
+    end
+
 end
 
 # run silverstripe specific setup

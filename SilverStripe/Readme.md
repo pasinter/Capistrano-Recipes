@@ -20,6 +20,9 @@ Available Tasks
 * `silverstripe:deploy:setup` - Silverstripe specific setup
 * `silverstripe:deploy:symlink_shared` - Create shared symlinks
 
+* `silverstripe:project:disable' - Put the site into maintenance mode
+* `silverstripe:project:enable' - Enable the site - remove maintenance mode
+
 
 Usage
 -----------------
